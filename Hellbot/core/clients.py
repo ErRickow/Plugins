@@ -120,7 +120,7 @@ class HellClient(Client):
             f"**{Symbols.triangle_right} E r 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['hellbot']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['pyrogram']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗍𝗁𝗈𝗇 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['python']}`\n\n"
-            f"**</> @HellBot_Networks**",
+            f"**</> @Pamerdong**",
             parse_mode=ParseMode.MARKDOWN,
             disable_notification=True,
             reply_markup=InlineKeyboardMarkup(

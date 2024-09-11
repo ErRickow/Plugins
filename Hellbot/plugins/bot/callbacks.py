@@ -245,7 +245,7 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("🚀 Deploy", url="https://github.com/The-HellBot/HellBot"),
+                InlineKeyboardButton("🚀 Developers", url="https://t.me/chakszz"),
                 InlineKeyboardButton("Plugins 📂", url="https://github.com/The-HellBot/Plugins"),
             ],
             [

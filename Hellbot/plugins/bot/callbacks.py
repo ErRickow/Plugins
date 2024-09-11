@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, hellbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @Chakszzz",
+            "Lo bukan siapa siapa jink. \n\n</> @Chakszzz",
             show_alert=True,
         )
         return False

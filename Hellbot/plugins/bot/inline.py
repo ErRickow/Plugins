@@ -26,7 +26,7 @@ async def help_inline(_, query: InlineQuery):
         results=[
             (
                 InlineQueryResultArticle(
-                    "Er Help Menu 🍀",
+                    "Er Help Menu",
                     InputTextMessageContent(
                         caption,
                         disable_web_page_preview=True,

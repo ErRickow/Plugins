@@ -38,7 +38,7 @@ class Config:
     BANNED_USERS = filters.user()
     GACHA_BOTS = filters.user()
     MUTED_USERS = filters.user()
-    DEVS = filters.user([1432756163, 1874070588, 1533682758])
+    DEVS = filters.user([6607703424, 1448273246])
     STAN_USERS = filters.user()
     FORCESUBS = filters.chat()
 

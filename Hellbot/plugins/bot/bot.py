@@ -54,7 +54,7 @@ BotHelp("Others").add(
 ).add(
     "help", "Buka semua menu."
 ).add(
-    "restart", "To restart the bot."
+    "restart", "Untuk restart bot."
 ).info(
     "Some basic commands of the bot."
 ).done()

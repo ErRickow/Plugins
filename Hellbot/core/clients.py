@@ -63,7 +63,7 @@ class HellClient(Client):
         await self.bot.start()
         me = await self.bot.get_me()
         LOGS.info(
-            f"{Symbols.arrow_right * 2} Started HellBot Client: '{me.username}' {Symbols.arrow_left * 2}"
+            f"{Symbols.arrow_right * 2} Started Er Client: '{me.username}' {Symbols.arrow_left * 2}"
         )
 
     async def load_plugin(self) -> None:

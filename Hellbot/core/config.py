@@ -122,7 +122,7 @@ class Symbols:
     anchor = "⚘"
     arrow_left = "«"
     arrow_right = "»"
-    back = "🔙 back"
+    back = "🔙 Kembali"
     bullet = "•"
     check_mark = "✔"
     close = "🗑️"

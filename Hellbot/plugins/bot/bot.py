@@ -56,5 +56,5 @@ BotHelp("Others").add(
 ).add(
     "restart", "Untuk restart bot."
 ).info(
-    "Some basic commands of the bot."
+    "Basic command bot."
 ).done()

@@ -79,7 +79,7 @@ async def update_dotenv(key: str, value: str) -> None:
 
 
 async def restart(
-    update: bool = False,
+    update: bool = True,
     clean_up: bool = False,
     shutdown: bool = False,
 ):

@@ -117,7 +117,7 @@ class HellClient(Client):
             f"**{Symbols.triangle_right} C o m m a n d:** `{len(Config.CMD_INFO)}`\n"
             f"**{Symbols.triangle_right} 𝖲𝗍𝖺𝗇 𝖴𝗌𝖾𝗋𝗌:** `{len(Config.STAN_USERS)}`\n"
             f"**{Symbols.triangle_right} 𝖠𝗎𝗍𝗁 𝖴𝗌𝖾𝗋𝗌:** `{len(Config.AUTH_USERS)}`\n\n"
-            f"**{Symbols.triangle_right} E r 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['hellbot']}`\n"
+            f"**{Symbols.triangle_right} E r 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['er']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['pyrogram']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗍𝗁𝗈𝗇 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['python']}`\n\n"
             f"**</> @Pamerdong**",

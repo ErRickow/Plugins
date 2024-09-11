@@ -110,7 +110,7 @@ class HellClient(Client):
     async def start_message(self, version: dict) -> None:
         await self.bot.send_animation(
             Config.LOGGER_ID,
-            "https://te.legra.ph/file/8deca5343c64d9db9401f.mp4",
+            "https://telegra.ph/file/c22cea683a0c0dd603fb1.jpg",
             f"**{Symbols.check_mark} 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 𝗂𝗌 𝗇𝗈𝗐 𝖮𝗇𝗅𝗂𝗇𝖾!**\n\n"
             f"**{Symbols.triangle_right} 𝖢𝗅𝗂𝖾𝗇𝗍𝗌:** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗅𝗎𝗀𝗂𝗇𝗌:** `{len(Config.CMD_MENU)}`\n"

@@ -11,7 +11,7 @@ START_TIME = time.time()
 
 
 __version__ = {
-    "hellbot": "3.0",
+    "er": "0.1",
     "pyrogram": pyrogram_version,
     "python": python_version(),
 }

@@ -111,7 +111,7 @@ class HellClient(Client):
         await self.bot.send_animation(
             Config.LOGGER_ID,
             "https://telegra.ph/file/c22cea683a0c0dd603fb1.jpg",
-            f"**{Symbols.check_mark} 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 𝗂𝗌 𝗇𝗈𝗐 𝖮𝗇𝗅𝗂𝗇𝖾!**\n\n"
+            f"**{Symbols.check_mark} E r U s e r b o t A k t i f!**\n\n"
             f"**{Symbols.triangle_right} 𝖢𝗅𝗂𝖾𝗇𝗍𝗌:** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗅𝗎𝗀𝗂𝗇𝗌:** `{len(Config.CMD_MENU)}`\n"
             f"**{Symbols.triangle_right} 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:** `{len(Config.CMD_INFO)}`\n"

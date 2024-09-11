@@ -16,4 +16,4 @@ logging.basicConfig(
 
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 
-LOGS = logging.getLogger("HellBot")
+LOGS = logging.getLogger("Er")

@@ -50,9 +50,9 @@ async def restart_clients(_, message: Message):
 
 
 BotHelp("Others").add(
-    "start", "To start the bot and get the main menu."
+    "start", "Start bot, dan dapatkan menu."
 ).add(
-    "help", "To get the help menu with all the command for this assistant bot."
+    "help", "Buka semua menu."
 ).add(
     "restart", "To restart the bot."
 ).info(

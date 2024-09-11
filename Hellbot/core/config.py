@@ -21,7 +21,7 @@ class Config:
     HEROKU_APIKEY = getenv("HEROKU_APIKEY", None)
 
     # github related configs
-    PLUGINS_REPO = getenv("PLUGINS_REPO", "The-HellBot/Plugins")
+    PLUGINS_REPO = getenv("PLUGINS_REPO", "ErRickow/Plugins")
     DEPLOY_REPO = getenv("DEPLOY_REPO", "The-HellBot/Hellbot")
 
     # storage dir: you may or may not edit

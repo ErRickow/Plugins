@@ -137,7 +137,7 @@ class HellClient(Client):
 
     async def startup(self) -> None:
         LOGS.info(
-            f"{Symbols.bullet * 3} Starting HellBot Client & User {Symbols.bullet * 3}"
+            f"{Symbols.bullet * 3} Starting Er Clients & User {Symbols.bullet * 3}"
         )
         await self.start_bot()
         await self.start_user()

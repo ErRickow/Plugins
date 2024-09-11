@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\\> @pamerdong 🍀**"
 
     buttons = [
         [
@@ -253,7 +253,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),
-                InlineKeyboardButton("Updates 📣", url="https://t.me/Its_HellBot"),
+                InlineKeyboardButton("Updates 📣", url="https://t.me/pamerdong"),
             ],
             [
                 InlineKeyboardButton("🔙", "help_data:start"),

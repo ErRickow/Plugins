@@ -217,7 +217,7 @@ class CustomMethods(HellClient):
                     Config.LOGGER_ID, msg, disable_web_page_preview=True
                 )
         except Exception as e:
-            raise Exception(f"{Symbols.cross_mark} LogErr: {e}")
+            raise Exception(f"{Symbols.cross_mark} ERROR BANGKE: {e}")
 
     async def check_and_log(self, tag: str, text: str, file: str = None) -> None:
         """Check if :

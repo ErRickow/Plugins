@@ -246,7 +246,6 @@ async def help_close_cb(_, cb: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🚀 Developers", url="https://t.me/chakszz"),
-                InlineKeyboardButton("Plugins 📂", url="https://github.com/The-HellBot/Plugins"),
             ],
             [
                 InlineKeyboardButton("нєℓℓвσт ηєтωσяк 🇮🇳", url="https://t.me/HellBot_Networks"),

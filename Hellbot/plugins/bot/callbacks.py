@@ -248,7 +248,7 @@ async def help_close_cb(_, cb: CallbackQuery):
                 InlineKeyboardButton("🚀 Developers", url="https://t.me/chakszz"),
             ],
             [
-                InlineKeyboardButton("нєℓℓвσт ηєтωσяк 🇮🇳", url="https://t.me/HellBot_Networks"),
+                InlineKeyboardButton("𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗗𝗲𝗺𝘂𝘀 🇲🇨", url="https://t.me/StreamSupport_Id"),
             ],
             [
                 InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),

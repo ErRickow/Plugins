@@ -96,7 +96,7 @@ async def new_session(_, message: Message):
 
 
 @hellbot.bot.on_message(
-    filters.regex(r"Delete ❌") & Config.AUTH_USERS & filters.private
+    filters.regex(r"Hapus ❌") & Config.AUTH_USERS & filters.private
 )
 async def delete_session(_, message: Message):
     all_sessions = await db.get_all_sessions()

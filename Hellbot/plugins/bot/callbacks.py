@@ -140,7 +140,7 @@ async def help_menu_cb(_, cb: CallbackQuery):
             for i in sorted(Config.HELP_DICT[plugin]["commands"])
         ]
     except KeyError:
-        await cb.answer("No description provided for this plugin!", show_alert=True)
+        await cb.answer("Tidak ada info untuk plugin ini!", show_alert=True)
         return
 
     buttons = [buttons[i : i + 2] for i in range(0, len(buttons), 2)]

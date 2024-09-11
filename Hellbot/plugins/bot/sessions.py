@@ -23,7 +23,7 @@ async def session_menu(_, message: Message):
     )
 
 
-@hellbot.bot.on_message(filters.regex(r"Baru 🔰") & Config.AUTH_USERS & filters.private)
+@hellbot.bot.on_message(filters.regex(r"Baru 🔖") & Config.AUTH_USERS & filters.private)
 async def new_session(_, message: Message):
     await message.reply_text(
         "**Baiklah** Setup new session",

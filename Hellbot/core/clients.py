@@ -127,7 +127,6 @@ class HellClient(Client):
                 [
                     [
                         InlineKeyboardButton("💫 Start Me", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 Repo", url="https://github.com/The-HellBot/HellBot"),
                     ],
                     [
                         InlineKeyboardButton("🍀 HellBot Networks 🍀", url="https://t.me/hellbot_networks"),

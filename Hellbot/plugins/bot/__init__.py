@@ -11,8 +11,8 @@ START_MSG = """
 HELP_MSG = """
 **⚙️ 𝖧𝖾𝗅𝗉:**
 
-__» All commands are categorized and you can use these buttons below to navigate each category and get respective commands.__
-__» Feel free to contact us if you need any help regarding the bot.__
+__» SEMUA COMMAND ADA DI BAWAH.__
+__» Kontak gw klo lu anu.__
 
-**❤️ @HellBot_Networks 🇮🇳**
+**❤️ @Pamerdong**
 """

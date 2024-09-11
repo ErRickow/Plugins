@@ -22,7 +22,7 @@ def session_keyboard() -> ReplyKeyboardMarkup:
             ],
             [
                 KeyboardButton("List 📜"),
-                KeyboardButton("Beranda🏠"),
+                KeyboardButton("Home 🏠"),
             ],
         ],
         resize_keyboard=True,

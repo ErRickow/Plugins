@@ -58,7 +58,7 @@ async def clenup_bot(_, message: Message):
 
 @on_message("update", allow_stan=True)
 async def update_bot(_, message: Message):
-    hell = await hellbot.edit(message, "**🔄 𝖨𝗇 𝖯𝗋𝗈𝗀𝗋𝖾𝗌𝗌...**")
+    hell = await hellbot.reply(message, "**🔄 𝖨𝗇 𝖯𝗋𝗈𝗀𝗋𝖾𝗌𝗌...**")
 
     if len(message.command) < 2:
         status, repo, force = await initialize_git(Config.PLUGINS_REPO)

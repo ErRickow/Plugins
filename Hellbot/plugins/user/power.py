@@ -15,7 +15,7 @@ from . import Config, HelpMenu, hellbot, on_message
 
 @on_message("restart", allow_stan=True)
 async def restart_bot(_, message: Message):
-    await hellbot.edit(message, "💫 Restarted Bot Successfully!")
+    await hellbot.reply(message, "💫 Restarted Bot Successfully!")
     try:
         if HEROKU_APP:
             try:
